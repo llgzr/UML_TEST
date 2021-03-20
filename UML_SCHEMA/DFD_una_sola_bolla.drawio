@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T09:56:26.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="wHwkopwk9XkZhVHQJtYI" version="14.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-20T10:48:59.421Z" agent="5.0 (Windows)" etag="zGz2lJmQthSyo9qvyIBU" version="14.4.9" type="github">
   <diagram id="4DOZYZULpae04CoY8hZ3" name="Page-1">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1865" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,8 +21,8 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-7" value="COMANDO&amp;nbsp;&lt;br&gt;RELATIVO AD&amp;nbsp;&lt;br&gt;UNA RICHIESTA INFORMATIVA&amp;nbsp;&lt;br&gt;PER UN&#39;ATTIVITA&#39; DI&amp;nbsp;&lt;br&gt;PRIMO SOCCORSO" style="endArrow=classic;html=1;exitX=0.433;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xERufU_nXvcKX3jVhLkJ-2" target="xERufU_nXvcKX3jVhLkJ-1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-7" value="COMANDO&amp;nbsp;&lt;br&gt;RELATIVO AD&amp;nbsp;&lt;br&gt;UNA RICHIESTA INFORMATIVA&amp;nbsp;&lt;br&gt;PER UN&#39;ATTIVITA&#39; DI&amp;nbsp;&lt;br&gt;&lt;div&gt;PRIMO SOCCORSO / FOTOGRAFIE &lt;br&gt;&lt;/div&gt;&lt;div&gt;DELLA PERSONA MESSA IN &lt;br&gt;&lt;/div&gt;&lt;div&gt;POSIZIONE DI SICUREZZA / &lt;br&gt;&lt;/div&gt;&lt;div&gt;LOCALIZZAZIONE DELLA PERSONA&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=0.433;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xERufU_nXvcKX3jVhLkJ-2" target="xERufU_nXvcKX3jVhLkJ-1" edge="1">
+          <mxGeometry x="-0.0131" y="-36" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="310" as="sourcePoint" />
             <mxPoint x="440" y="260" as="targetPoint" />
             <Array as="points">
@@ -30,6 +30,7 @@
               <mxPoint x="80" y="360" />
               <mxPoint x="80" y="410" />
             </Array>
+            <mxPoint x="-20" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xERufU_nXvcKX3jVhLkJ-11" value="DB&amp;nbsp;&lt;br&gt;CONTENENTE&amp;nbsp;&lt;br&gt;RISPOSTE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -41,7 +42,7 @@
             <mxPoint x="440" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-13" value="RISPOSTA ALLA&amp;nbsp;&lt;br&gt;QUERY&amp;nbsp;&lt;br&gt;DEL BOT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-12" vertex="1" connectable="0">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-13" value="&lt;div&gt;INFORMAZIONI&lt;/div&gt;&lt;div&gt;RICHIESTE&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-12" vertex="1" connectable="0">
           <mxGeometry x="0.356" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -55,12 +56,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-17" value="QURY&amp;nbsp;&lt;br&gt;INFORMATIVA&amp;nbsp;&lt;br&gt;AL DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-14" vertex="1" connectable="0">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-17" value="&lt;div&gt;QUERY DI RICHIESTA&lt;br&gt;&lt;/div&gt;INFORMATIVA&amp;nbsp;&lt;br&gt;AL DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-14" vertex="1" connectable="0">
           <mxGeometry x="-0.1284" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-18" value="ALGORITMO DI&amp;nbsp;&lt;br&gt;IA IN&amp;nbsp;&lt;br&gt;AIUTO AL BOT" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-18" value="&lt;div&gt;ALGORITMO DI AI PER &lt;br&gt;&lt;/div&gt;&lt;div&gt;CONTROLLO POSIZIONE DI &lt;br&gt;&lt;/div&gt;&lt;div&gt;SICUREZZA&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="140" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="xERufU_nXvcKX3jVhLkJ-19" value="" style="endArrow=classic;html=1;entryX=0.921;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="xERufU_nXvcKX3jVhLkJ-18" target="xERufU_nXvcKX3jVhLkJ-1" edge="1">
@@ -69,7 +70,7 @@
             <mxPoint x="440" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-20" value="CLASSIFICAZIONE&amp;nbsp;&lt;br&gt;DELL&#39;AZIONE DA&amp;nbsp;&lt;br&gt;SVOLGERE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-19" vertex="1" connectable="0">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-20" value="&lt;div&gt;FLAG POSIZIONE DI SICUREZZA &lt;br&gt;&lt;/div&gt;&lt;div&gt;ESEGUITA IN MANIERA&lt;/div&gt;&lt;div&gt; CORRETTA/ NON CORRETTA&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-19" vertex="1" connectable="0">
           <mxGeometry x="-0.3983" y="3" relative="1" as="geometry">
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -84,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xERufU_nXvcKX3jVhLkJ-24" value="INFORMAZIONI&lt;br&gt;RELATIVE&amp;nbsp;&lt;br&gt;AD UNA SITUAZIONE&amp;nbsp;&lt;br&gt;DI PRIMO SOCCORSO&lt;br&gt;(IMMAGINI/LOCALIZZAZIONE/&lt;br&gt;PAROLE CHIAVE)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-23" vertex="1" connectable="0">
+        <mxCell id="xERufU_nXvcKX3jVhLkJ-24" value="&lt;div&gt;FOTOGRAFIA PERSONA IN &lt;br&gt;&lt;/div&gt;&lt;div&gt;POSIZIONE DI SICUREZZA&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xERufU_nXvcKX3jVhLkJ-23" vertex="1" connectable="0">
           <mxGeometry x="0.335" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
